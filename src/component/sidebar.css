@@ -1,0 +1,56 @@
+
+.display1{
+      display: flex;
+  }
+  .sideBar {
+    height: 100vh;
+    width: 35vh;
+    background-color: #11172D;
+    position: relative;
+  }
+  .box1{
+      margin: 20px;
+      width: 150vh;
+      height: 95vh;
+      background-color: #11172D;
+  }
+  .userImage{
+    width: 80px;
+    height: 80px;
+    position: static;
+    padding: 20px;
+    border-radius: 60px;
+    margin: 0;
+  }
+  .userImageDetails{
+   left: 110px;
+   top: 22px;
+   position: absolute; 
+   color: aliceblue;
+   line-height: 10px;
+  }
+  
+  .sideBarList ul{
+    list-style-type: none;
+    position: absolute;
+    padding-left: 50px;
+    align-items: center;
+    padding: 70px 30px 70px 30px;
+  }
+  
+  .sideBarList ul li{
+    color: aliceblue;
+    font-size: 2.5ch;
+    align-items: center;
+    display: flex;
+    height: 20px;
+    padding: 30px 30px;
+  
+  }
+  .sideBarList ul li:hover{
+    background: #08335A;
+    border-radius: 30px;
+    height: 20px;
+  }
+  
+  

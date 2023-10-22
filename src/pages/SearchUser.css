@@ -1,0 +1,10 @@
+.box1{
+    margin: 20px;
+    width: 150vh;
+    height: 95vh;
+    background-color: #11172D;
+  }
+
+.sbar{
+  position: absolute;
+}
